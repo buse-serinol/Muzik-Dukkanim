@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Müzik Dükkanım</title>
-  </head>
-  <style>
-    .centered-list {
-      list-style-position: inside;
-      padding-left: 0;
-    }
-    .center {
-      text-align: center;
-    }
-  </style>
 
-  <body style="background-color: #fcaeae">
-    <div class="center">
-      <h1 style="color: #468b97">Müzik Dükkanım</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Müzik Dükkanım</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <h1 class="h1-text">Müzik Dükkanım</h1>
+    <div class="navbar-content">
+      <ul>
+        <li><a class="home" href="index.html">Anasayfa</a></li>
+        <li><a href="product.html">Ürünlerimiz</a></li>
+        <li><a href="about-us.html">Hakkımızda</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+    <section>
+    <div  class="container">
+      <h1 class="hello">Merhaba!</h1>
       <p>
         Müzik Dükkanım'a hoş geldiniz. Burada çeşitli müzik aletlerini
         bulabilirsiniz. Kaliteli ürünlerimize bakmak için
@@ -26,30 +37,26 @@
       </p>
     </div>
 
-    <div class="center">
-      <p>
-        <a href="index.html">Anasayfa</a>
-        &nbsp;
-        <a href="product.html">Ürünlerimiz</a>
-        &nbsp;
-        <a href="about-us.html">Hakkımızda</a>
-      </p>
-    </div>
+    <hr>
+  
 
-    <h2 style="font-size:20px;color:#468b97"
-    class="center">
-        Anasayfa
-    </h2>
-
-    <div class="center">
-      <h2 style="font-size:20px;color: #468b97">Sitemizde Bulunan Müzik Aletleri</h2>
-
-      <ul class="centered-list">
+    <div class="container2">
+      <h1 class="container-h1">Sitemizde Bulunan Müzik Aletleri</h1>
+      <ul class="types">
         <li>Gitar</li>
         <li>Davul</li>
         <li>Piyano</li>
         <li>Keman</li>
       </ul>
     </div>
-  </body>
+    
+  
+    <button class="btn btn-primary"><a href="about-us.html">Hakkımızda</a></button>
+   
+  </section>
+
+  
+
+</body>
+
 </html>

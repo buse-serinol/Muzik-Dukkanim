@@ -1,0 +1,72 @@
+*{
+    margin: 0; padding: 0;
+    
+    
+}
+
+
+.navbar{
+    background-color: rgb(46, 43, 43);   
+}
+
+.navbar .h1-text{
+    display: flex;
+    color: rgb(126, 36, 36);
+    font-size: 25px;
+    padding: 0 25px;
+    justify-content: center;
+}
+
+.navbar-content{
+    display: flex;
+   margin-top: 8px;
+    align-items: center;
+    margin-right: 50rem;
+    
+  
+}
+.navbar .navbar-content ul{
+    display: flex;
+    
+    gap: 15px;
+    list-style-type: none;
+    font-size: 15px;
+    
+   
+}
+
+.navbar .navbar-content ul li a{
+  color: gray;
+  text-decoration: none;
+ 
+}
+.navbar .navbar-content ul li a:hover{
+    color: white;
+    transition: .5s;
+}
+
+.navbar .navbar-content ul li .product{
+    color: white;
+}
+
+section{
+    background-color: #E9ECEF;
+    height: 160vh;  
+    
+}
+
+.row-cols-3{
+    gap:20px;
+  padding: 5% 10%;
+  
+    
+}
+
+.sec-h1{
+    text-align: center;
+   padding-top: 50px;
+   color:rgb(126, 36, 36);
+}
+
+
+
